@@ -1,0 +1,19 @@
+select nombre_cliente,sum(precio)
+from venta
+group by nombre_cliente
+
+select fecha,sum(precio)
+from venta
+group by fecha
+
+select fecha,id_producto,sum(precio)
+from venta
+group by fecha, id_producto
+
+select nombre_cliente,fecha,sum(precio)
+from venta
+group by nombre_cliente, fecha
+
+select,nombre_cliente,sum(cantidad)
+from venta
+group by, nombre_cliente
