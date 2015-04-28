@@ -9,16 +9,17 @@ Generar el esquema con el siguiente script SQL:
 .. code-block:: sql
 
 
+
 	CREATE TABLE VENTA (
 	  id integer NULL,
 	  fecha varchar(255),
 	  precio money,
 	  cantidad integer NULL,
-	  nombre_cliente varchar(255) default NULL
+	  nombre_cliente varchar(255) default NULL,
+	  id_producto integer NULL
 	);
 
-	INSERT INTO VENTA (id,fecha,precio,cantidad,nombre_cliente) VALUES (1,'12/06/2014','$61.07',1,'Rachel'),(2,'08/12/2014','$68.61',3,'Eve'),(3,'08/02/2015','$38.61',1,'Brennan'),(4,'02/22/2015','$71.99',5,'Zenia'),(5,'12/19/2015','$20.30',7,'Shoshana'),(6,'02/11/2016','$7.67',8,'Jack'),(7,'10/05/2015','$32.96',6,'Jerry'),(8,'09/14/2015','$28.62',4,'Bernard'),(9,'11/26/2015','$37.34',8,'McKenzie'),(10,'01/26/2015','$24.76',7,'Irene');
-
+	INSERT INTO VENTA (id,fecha,precio,cantidad,nombre_cliente,id_producto) VALUES (1,'11/17/2014','27.35',4,'Colleen',6),(2,'10/15/2014','92.83',9,'Trevor',10),(3,'07/03/2015','79.11',1,'Valentine',4),(4,'05/05/2014','55.48',2,'Leroy',8),(5,'01/13/2015','31.86',2,'Nigel',6),(6,'08/12/2015','62.86',1,'Faith',3),(7,'12/21/2014','23.09',7,'Lucy',10),(8,'07/02/2015','38.26',3,'Garrett',8),(9,'07/26/2014','24.85',7,'Idola',9),(10,'09/11/2014','92.97',5,'Kirsten',8);
 
 Consignas
 ---------

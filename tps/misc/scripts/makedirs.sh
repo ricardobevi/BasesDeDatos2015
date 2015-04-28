@@ -31,33 +31,33 @@ mkdir -p TeoIovine/$tpdir
 mkdir -p WilliamAlvarez/$tpdir
 
 
-cp misc/tps/$tpdir/README.rst AlejandroImperatori/$tpdir/
-cp misc/tps/$tpdir/README.rst AlejoGalvez/$tpdir/
-cp misc/tps/$tpdir/README.rst CarlosSperaza/$tpdir/
-cp misc/tps/$tpdir/README.rst CristianGnecco/$tpdir/
-cp misc/tps/$tpdir/README.rst DamianRuscitto/$tpdir/
-cp misc/tps/$tpdir/README.rst DiegoAzpeitia/$tpdir/
-cp misc/tps/$tpdir/README.rst EzequielWalterPalomeque/$tpdir/
-cp misc/tps/$tpdir/README.rst FacundoMartinSalazar/$tpdir/
-cp misc/tps/$tpdir/README.rst JavierGimenez/$tpdir/
-cp misc/tps/$tpdir/README.rst JoaquinDaddino/$tpdir/
-cp misc/tps/$tpdir/README.rst JulianViescas/$tpdir/
-cp misc/tps/$tpdir/README.rst LautaroCarlosDErcole/$tpdir/
-cp misc/tps/$tpdir/README.rst LautaroGabrielTorres/$tpdir/
-cp misc/tps/$tpdir/README.rst LucasFerreiraDaCosta/$tpdir/
-cp misc/tps/$tpdir/README.rst LucasMedinaMartinez/$tpdir/
-cp misc/tps/$tpdir/README.rst MartinArias/$tpdir/
-cp misc/tps/$tpdir/README.rst MatiasDastugue/$tpdir/
-cp misc/tps/$tpdir/README.rst MatiasDeLeon/$tpdir/
-cp misc/tps/$tpdir/README.rst MatiasPortaluppi/$tpdir/
-cp misc/tps/$tpdir/README.rst MelanieLopezDevia/$tpdir/
-cp misc/tps/$tpdir/README.rst NahuelAbalos/$tpdir/
-cp misc/tps/$tpdir/README.rst NicolasAlvaradoAgustin/$tpdir/
-cp misc/tps/$tpdir/README.rst NicolasManograsso/$tpdir/
-cp misc/tps/$tpdir/README.rst SebastianDeLaCruz/$tpdir/
-cp misc/tps/$tpdir/README.rst SebastianRamirez/$tpdir/
-cp misc/tps/$tpdir/README.rst TeoIovine/$tpdir/
-cp misc/tps/$tpdir/README.rst WilliamAlvarez/$tpdir/
+cp -u misc/tps/$tpdir/README.rst AlejandroImperatori/$tpdir/
+cp -u misc/tps/$tpdir/README.rst AlejoGalvez/$tpdir/
+cp -u misc/tps/$tpdir/README.rst CarlosSperaza/$tpdir/
+cp -u misc/tps/$tpdir/README.rst CristianGnecco/$tpdir/
+cp -u misc/tps/$tpdir/README.rst DamianRuscitto/$tpdir/
+cp -u misc/tps/$tpdir/README.rst DiegoAzpeitia/$tpdir/
+cp -u misc/tps/$tpdir/README.rst EzequielWalterPalomeque/$tpdir/
+cp -u misc/tps/$tpdir/README.rst FacundoMartinSalazar/$tpdir/
+cp -u misc/tps/$tpdir/README.rst JavierGimenez/$tpdir/
+cp -u misc/tps/$tpdir/README.rst JoaquinDaddino/$tpdir/
+cp -u misc/tps/$tpdir/README.rst JulianViescas/$tpdir/
+cp -u misc/tps/$tpdir/README.rst LautaroCarlosDErcole/$tpdir/
+cp -u misc/tps/$tpdir/README.rst LautaroGabrielTorres/$tpdir/
+cp -u misc/tps/$tpdir/README.rst LucasFerreiraDaCosta/$tpdir/
+cp -u misc/tps/$tpdir/README.rst LucasMedinaMartinez/$tpdir/
+cp -u misc/tps/$tpdir/README.rst MartinArias/$tpdir/
+cp -u misc/tps/$tpdir/README.rst MatiasDastugue/$tpdir/
+cp -u misc/tps/$tpdir/README.rst MatiasDeLeon/$tpdir/
+cp -u misc/tps/$tpdir/README.rst MatiasPortaluppi/$tpdir/
+cp -u misc/tps/$tpdir/README.rst MelanieLopezDevia/$tpdir/
+cp -u misc/tps/$tpdir/README.rst NahuelAbalos/$tpdir/
+cp -u misc/tps/$tpdir/README.rst NicolasAlvaradoAgustin/$tpdir/
+cp -u misc/tps/$tpdir/README.rst NicolasManograsso/$tpdir/
+cp -u misc/tps/$tpdir/README.rst SebastianDeLaCruz/$tpdir/
+cp -u misc/tps/$tpdir/README.rst SebastianRamirez/$tpdir/
+cp -u misc/tps/$tpdir/README.rst TeoIovine/$tpdir/
+cp -u misc/tps/$tpdir/README.rst WilliamAlvarez/$tpdir/
 
 
 exit 0
