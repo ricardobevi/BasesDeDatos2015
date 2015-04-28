@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tpdir=tp1-SQLBasico
+tpdir=tp2-groupBy
 
 mkdir -p AlejandroImperatori/$tpdir
 mkdir -p AlejoGalvez/$tpdir
