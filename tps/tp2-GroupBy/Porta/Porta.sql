@@ -1,4 +1,4 @@
-// Trabajo Practico n2 - Matias Portaluppi
+-- Trabajo Practico n2 - Matias Portaluppi
 
 SELECT nombre_cliente, precio*cantidad AS Total FROM VENTA GROUP BY nombre_cliente, precio*cantidad;
 SELECT  fecha, precio*cantidad AS total FROM VENTA GROUP BY fecha, precio*cantidad;
