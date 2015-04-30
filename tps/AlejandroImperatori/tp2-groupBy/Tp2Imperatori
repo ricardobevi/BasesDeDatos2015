@@ -1,3 +1,4 @@
+--Alejandro Imperatori
 SELECT nombre_cliente, precio*cantidad AS Total
 FROM VENTA
 GROUP BY nombre_cliente,precio*cantidad;
