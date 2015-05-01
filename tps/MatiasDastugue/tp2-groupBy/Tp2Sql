@@ -1,9 +1,9 @@
- SELECT nombre_cliente ,precio*cantidad as Total FROM VENTA GROUP BY nombre_cliente,precio*cantidad;
+ SELECT nombre_cliente ,SUM(precio*cantidad) AS Total FROM VENTA GROUP BY nombre_cliente;
 
- SELECT  fecha,precio*cantidad AS total FROM VENTA GROUP BY fecha,precio*cantidad
+ SELECT  fecha,SUM(precio*cantidad) AS total FROM VENTA GROUP BY fecha;
 
- SELECT precio*cantidad AS total ,fecha,id_producto FROM VENTA GROUP BY fecha,id_producto,precio*cantidad ; 
+ SELECT SUM(precio*cantidad) AS total ,fecha,id_producto FROM VENTA GROUP BY fecha,id_producto; 
 
- SELECT cantidad ,nombre_cliente, fecha FROM VENTA GROUP BY nombre_cliente,fecha,cantidad; 
+ SELECT SUM(cantidad) AS Cantidad_Comprada ,nombre_cliente, fecha FROM VENTA GROUP BY nombre_cliente,fecha; 
 
- SELECT cantidad,nombre_cliente FROM VENTA GROUP BY nombre_cliente,cantidad;
+ SELECT SUM(cantidad) AS Cantidad_Total ,nombre_cliente FROM VENTA GROUP BY nombre_cliente;
