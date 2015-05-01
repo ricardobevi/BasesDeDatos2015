@@ -1,4 +1,4 @@
---Imperatori
+--Imperatori Alejandro
 SELECT nombre_cliente, SUM(precio*cantidad) AS Total
 FROM VENTA
 GROUP BY nombre_cliente;
