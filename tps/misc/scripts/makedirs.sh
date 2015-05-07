@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tpdir=tp2-groupBy
+tpdir=tp3-join
 
 mkdir -p AlejandroImperatori/$tpdir
 mkdir -p AlejoGalvez/$tpdir
