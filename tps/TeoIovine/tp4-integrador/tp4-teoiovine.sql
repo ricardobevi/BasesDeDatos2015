@@ -112,8 +112,8 @@ SELECT fabricante.nombre, avg(producto.precio) as promedio
 --14
 SELECT fabricante.nombre
 		FROM fabricante
-		JOIN producto ON producto.precio >= (SELECT avg(precio) FROM producto WHERE producto.id_fabricante = fabricante.id)
-		WHERE producto.id_fabricante = fabricante.id
+		JOIN producto ON producto.id_fabricante = fabricante.id
+		WHERE producto.precio >= (SELECT avg(precio) FROM producto WHERE producto.id_fabricante = fabricante.id)
 		GROUP BY fabricante.nombre;
 
 --15
