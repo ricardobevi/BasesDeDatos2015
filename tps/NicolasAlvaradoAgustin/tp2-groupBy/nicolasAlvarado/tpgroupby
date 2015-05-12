@@ -1,0 +1,20 @@
+SELECT nombre_cliente,sum(precio)
+FROM venta
+GROUP BY nombre_cliente
+punto 2
+select fecha, sum(precio)
+from venta
+group by fecha;
+punto3 
+select fecha,id, sum(precio)
+from venta
+group by fecha, id;
+punto4
+select fecha,nombre_cliente, sum(precio)
+from venta
+group by fecha, nombre_cliente;
+punto 5 
+select cantidad,nombre_cliente
+from venta 
+group by cantidad, nombre_cliente;
+
