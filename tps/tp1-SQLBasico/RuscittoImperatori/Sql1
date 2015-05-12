@@ -1,0 +1,35 @@
+--Ruscitto,Imperatori
+SELECT * 
+FROM luchador;
+
+SELECT nombre 
+FROM luchador;
+
+SELECT p1+p2+p3+p4+p5 AS total
+FROM luchador;
+
+SELECT p1+p2+p3+p4+p5 AS total
+FROM luchador
+WHERE categoria = 2 OR categoria = 3;
+
+SELECT AVG(peso) AS PesoPromedio 
+FROM luchador;
+
+SELECT SUM(peso) / COUNT(peso) AS PesoPromedio	
+FROM luchador;
+
+SELECT AVG(altura) As AlturaPromedio
+FROM luchador;
+
+SELECT AVG(Edad) AS EdadPromedio
+FROM luchador;
+
+SELECT peso/altura*altura AS IndiceMasaCorporal
+FROM luchador;
+
+SELECT AVG(peso) AS PesoPromedio, Avg(altura) AS AlturaPromedio 
+FROM luchador
+WHERE sexo = 'M';
+SELECT AVG(peso) AS PesoPromedio, Avg(altura) AS AlturaPromedio 
+FROM luchador
+WHERE sexo = 'F';
