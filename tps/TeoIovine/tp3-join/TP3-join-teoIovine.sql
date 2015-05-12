@@ -17,14 +17,16 @@ FROM
 		JOIN grupo ON Grupo.ID = usuario_grupo.id_grupo;
 
 -- 2
-SELECT grupo.descripcion FROM grupo
-		JOIN usuario ON usuario.ultima_conexion = current_date;
+SELECT grupo.descripcion FROM usuario_grupo
+		JOIN grupo ON usuariogrupo.id_grupo = grupo.id
+		JOIN usuario ON usuario_grupo.id_usuario = usuario.id
+		WHERE usuario.ultima_conexion = current_date;
 
 -- 3
 SELECT COUNT(id_usuario)
 FROM 	usuario_grupo
-		JOIN usuario ON usuario.tel = 'telefono'
-		WHERE usuario_grupo.id_usuario = usuario.id;
+		JOIN usuario ON usuario_grupo.id_usuario = usuario.id
+		WHERE usuario.tel = 'telefono'usuario_grupo.id_usuario = usuario.id;
 		-- En 'telefono' iría el teléfono del usuario a buscar.
 
 -- 4
