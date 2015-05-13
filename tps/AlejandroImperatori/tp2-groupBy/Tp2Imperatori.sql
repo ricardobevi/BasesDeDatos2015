@@ -1,4 +1,12 @@
 --Imperatori Alejandro 
+/*
+1 - Gasto total por cliente.
+2 - Total facturado por día.
+3 - Total facturado por día y por producto.
+4 - Cantidad comprada por cliente por fecha.
+5 - Cantidad total de unidades vendidas por cliente.
+*/
+
 --1
 SELECT nombre_cliente, SUM(precio*cantidad) AS Total
 FROM VENTA
