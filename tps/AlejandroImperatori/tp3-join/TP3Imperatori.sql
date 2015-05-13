@@ -1,4 +1,13 @@
 --Imperatori Alejandro
+/*
+1 - Nick de usuario asociado a cada grupo. 
+2 - Descripción de grupos que tengan usuarios conectados el día de hoy.
+3 - La cantidad de grupos a los que pertenece un usuario con un telefono dado. 
+4 - Listado de los mensajes con sus estados.
+5 - Conversación entre 2 usuarios. 
+6 - Igual al punto 5, pero mostrando también los estados. 
+7 - Listar los mensajes ignorados por los usuarios.
+*/
 
 --1
 SELECT usuario.nick, grupo.descripcion FROM usuario JOIN usuario_grupo ON usuario.id=usuario_grupo.id_usuario JOIN grupo ON usuario_grupo.id_grupo=grupo.id; 
