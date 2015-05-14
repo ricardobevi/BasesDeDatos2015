@@ -1,0 +1,11 @@
+-- Trabajo Practico 1 - Daddino, Gimenez
+select * from luchador;
+select nombre from luchador;
+select (p1+p2+p3+p4+p5) from luchador;
+select (p1+p2+p3+p4+p5) from luchador where categoria = 2 or categoria = 3;
+select avg(peso)as p_promedio from luchador;
+select sum(peso)/count(peso) as prom from luchador;
+select avg(edad) as e_prom, avg(altura) as a_prom from luchador;
+select (peso/altura*altura) as Masa_Corp from luchador;
+select avg(peso), avg(altura) from luchador where sexo= "M"; 
+select avg(peso), avg(altura) from luchador where sexo= "F";
