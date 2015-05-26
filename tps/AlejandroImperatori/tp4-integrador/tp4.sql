@@ -48,4 +48,4 @@ UPDATE producto SET nombre = 'Impresora Laser' WHERE id=8;
 UPDATE producto SET precio = precio*0.90;
 -- 20 Aplicar un descuento del 10% a todos los productos con un precio mayor o igual a $120.
 UPDATE producto SET precio = precio*0.90 WHERE precio >= 120;
---------------------------------------------------------------------------------------------
+
