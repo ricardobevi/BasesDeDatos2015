@@ -1,0 +1,5 @@
+ SELECT nombre_cliente, SUM(precio) as Total FROM venta GROUP BY nombre_cliente; -- 1
+ SELECT fecha, SUM(precio) FROM venta GROUP BY fecha; -- 2  
+ SELECT fecha,id_producto, SUM(precio) FROM venta GROUP BY fecha, id_producto; -- 3
+ SELECT nombre_cliente, fecha, SUM(cantidad) FROM venta GROUP BY nombre_cliente, fecha; -- 4
+ SELECT nombre_cliente, SUM(cantidad) FROM venta GROUP BY nombre_cliente; -- 5
