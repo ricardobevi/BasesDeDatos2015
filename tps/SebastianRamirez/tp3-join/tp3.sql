@@ -1,37 +1,52 @@
---alumno: Ramirez Sebastian
+--TP3 
+--alumnos: Ramirez Sebastian, William Alvarez
 
--- 1
+-- 1 
+SELECT usuario.nick, grupo.descripcion FROM usuario 
+JOIN usuario_grupo 
+ON usuario.id=usuario_grupo.id_usuario 
+JOIN grupo 
+ON usuario_grupo.id_grupo=grupo.id; 
 
-SELECT usuario.nick, grupo.descripcion FROM usuario_grupo 
-JOIN usuario ON Usuario.ID = usuario_grupo.id_usuario 
-JOIN grupo ON Grupo.ID = usuario_grupo.id_grupo;
+--2
+SELECT usuario.ultima_conexion, grupo.descripcion FROM usuario 
+JOIN usuario_grupo 
+ON usuario.id=usuario_grupo.id_usuario 
+JOIN grupo 
+ON usuario_grupo.id_grupo=grupo.id 
+WHERE usuario.ultima_conexion=currentdate();
 
--- 2
-SELECT grupo.descripcion FROM grupo
-JOIN usuario ON usuario.ultima_conexion = current_date;
+--3
+SELECT  count(grupo.id) FROM usuario 
+JOIN usuario_grupo 
+ON usuario.id=usuario_grupo.id_usuario 
+JOIN grupo 
+ON usuario_grupo.id_grupo=grupo.id 
+WHERE usuario.tel='numero';
+    
+--4
+SELECT mensaje.mensaje,estado.descripcion FROM mensaje 
+JOIN estado 
+ON mensaje.id_estado=estado.id;
 
--- 3
-SELECT COUNT(id_usuario) FROM usuario_grupo
-JOIN usuario ON usuario.tel = 'telefono'
-WHERE usuario_grupo.id_usuario = usuario.id;
-		
--- 4
-SELECT mensaje.mensaje, estado.descripcion FROM mensaje
-JOIN estado ON mensaje.id_estado = estado.id;
+--5 
+SELECT  usuario.nick , mensaje.mensaje FROM usuario 
+JOIN mensaje 
+ON usuario.id=mensaje.id_usr_from  
+WHERE mensaje.id_usr_from='8' and mensaje.id_usr_to='3';
 
--- 5
-SELECT mensaje.mensaje, usuario.nick FROM mensaje
-JOIN usuario ON usuario.tel = 'telefono'
-WHERE mensaje.id_usr_from = usuario.id or mensaje.id_usr_to = usuario.id;
-		
--- 6
-SELECT mensaje.mensaje, usuario.nick, estado.descripcion FROM mensaje
-JOIN usuario ON usuario.tel = 'telefono'
-JOIN estado ON estado.id = mensaje.id
-WHERE mensaje.id_usr_from = usuario.id or mensaje.id_usr_to = usuario.id;
+--6
+SELECT  usuario.nick ,mensaje.mensaje ,estado.descripcion FROM usuario 
+JOIN mensaje 
+ON usuario.id=id_usr_from 
+JOIN estado 
+ON mensaje.id_estado=estado.id 
+WHERE mensaje.id_usr_from='5' and mensaje.id_usr_to='2';
 
--- 7
-SELECT mensaje.mensaje FROM mensaje
-JOIN estado ON estado.descripcion = 'Recibido'
-JOIN usuario ON mensaje.id_usr_from = usuario.id
-WHERE mensaje.id_estado = estado.id AND mensaje.fecha_envio < usuario.ultima_conexion;
+--7
+SELECT  usuario.nick, mensaje.mensaje FROM mensaje 
+JOIN estado 
+ON mensaje.id_estado=estado.id 
+JOIN usuario 
+ON usuario.id=mensaje.id_usr_from 
+WHERE usuario.ultima_conexion > mensaje.fecha_envio; 
