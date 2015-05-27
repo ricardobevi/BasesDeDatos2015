@@ -5,7 +5,7 @@ SELECT usuario.nick, grupo.descripcion FROM usuario JOIN usuario_grupo ON usuari
 SELECT usuario.ultima_conexion, grupo.descripcion
 FROM usuario JOIN usuario_grupo ON usuario.id=usuario_grupo.id_usuario JOIN grupo ON usuario_grupo.id_grupo=grupo.id WHERE usuario.ultima_conexion=DATE(NOW());
 --3
-SELECT  count(grupo.id) as Cantidad  FROM usuario JOIN usuario_grupo ON usuario.id=usuario_grupo.id_usuario JOIN grupo ON usuario_grupo.id_grupo=grupo.id WHERE usuario.tel='(01) 6149 7603';
+SELECT  count(grupo.id) as Cantidad  FROM usuario JOIN usuario_grupo ON usuario.id=usuario_grupo.id_usuario JOIN grupo ON usuario_grupo.id_grupo=grupo.id WHERE usuario.tel='(07) 9190 8500';
 --4
 SELECT mensaje.mensaje,estado.descripcion  FROM mensaje JOIN estado ON mensaje.id_estado=estado.id;
 --5
