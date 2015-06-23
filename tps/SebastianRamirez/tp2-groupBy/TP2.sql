@@ -1,4 +1,4 @@
--- TP Nº 2 BASE DE DATOS Alumno: Arias
+-- TP Nº 2 BASE DE DATOS Alumno: Ramirez
 
 SELECT * FROM VENTA;
 --1
