@@ -1,0 +1,11 @@
+SELECT * FROM Luchador;
+SELECT nombre FROM Luchador;
+SELECT p1+p2+p3+p4+p5 AS Puntaje_Total FROM Luchador;
+SELECT P1+P2+P3+P4+P5 AS Puntaje_Total FROM Luchador WHERE categoria=2 OR categoria=3;
+SELECT SUM(peso)/COUNT(id) AS Peso_Promedio FROM Luchador;
+SELECT AVG(peso) AS Peso_Promedio FROM Luchador;
+SELECT AVG(altura) AS Promedio_Altura FROM Luchador;
+SELECT AVG(edad) AS Promedio_Edad FROM Luchador;
+SELECT peso/altura*altura AS IMC FROM Luchador;
+SELECT AVG(peso) As Peso_Promedio_M, AVG(altura) AS Altura_Promedio_F FROM Luchador WHERE sexo=m;
+SELECT AVG(peso) AS PesoPromedio_M, AVG(altura) AS Altura_Promedio_F FROM Luchador WHERE sexo=f;
