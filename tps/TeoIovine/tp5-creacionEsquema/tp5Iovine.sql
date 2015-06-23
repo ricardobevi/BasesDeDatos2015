@@ -10,7 +10,7 @@ CREATE TABLE cliente(
 	dni_cuil varchar(12),
 	fecha_alta date,
 	CONSTRAINT id PRIMARY KEY(id));
-(INSERT INTO "cliente" (razon_social, dni_cuil, fecha_alta) VALUES ('Pedro Alzaibar',2545899777,'25/3/1980');
+INSERT INTO "cliente" (razon_social, dni_cuil, fecha_alta) VALUES ('Pedro Alzaibar',2545899777,'25/3/1980');
 INSERT INTO "cliente" (razon_social, dni_cuil, fecha_alta) VALUES ('Malena Ginzgburg',215487524,'1999/8/2');
 INSERT INTO "cliente" (razon_social, dni_cuil, fecha_alta) VALUES ('Alfredo Palermo',45786559558,'2001/7/21');
 INSERT INTO "cliente" (razon_social, dni_cuil, fecha_alta) VALUES ('Gabriela Trotski',11111111111,'2008/11/20');
@@ -114,7 +114,7 @@ INSERT INTO "cliente" (razon_social,dni_cuil,fecha_alta) VALUES ('Yvonne Garner'
 INSERT INTO "cliente" (razon_social,dni_cuil,fecha_alta) VALUES ('Isabelle Durham',57121209,'2000/04/08');
 INSERT INTO "cliente" (razon_social,dni_cuil,fecha_alta) VALUES ('Maisie Foster',35220440,'2002/09/13');
 INSERT INTO "cliente" (razon_social,dni_cuil,fecha_alta) VALUES ('Teagan Randall',72572785,'1999/07/05');
-INSERT INTO "cliente" (razon_social,dni_cuil,fecha_alta) VALUES ('Reagan Bennett',65878970,'1995/05/07');)
+INSERT INTO "cliente" (razon_social,dni_cuil,fecha_alta) VALUES ('Reagan Bennett',65878970,'1995/05/07');
 
 
 CREATE TABLE producto(
@@ -122,7 +122,7 @@ CREATE TABLE producto(
 	precio_unitario money,
 	stock_actual int,
 	CONSTRAINT id_prod PRIMARY KEY (id_prod));
-(INSERT INTO "producto" (precio_unitario, stock_actual) VALUES ('10','4');
+INSERT INTO "producto" (precio_unitario, stock_actual) VALUES ('10','4');
 INSERT INTO "producto" (precio_unitario, stock_actual) VALUES ('3.20','7');
 INSERT INTO "producto" (precio_unitario, stock_actual) VALUES ('48','0');
 INSERT INTO "producto" (precio_unitario, stock_actual) VALUES ('15.55','1');
@@ -226,7 +226,7 @@ INSERT INTO "producto" (precio_unitario,stock_actual) VALUES ('54.26',76);
 INSERT INTO "producto" (precio_unitario,stock_actual) VALUES ('94.49',28);
 INSERT INTO "producto" (precio_unitario,stock_actual) VALUES ('31.55',25);
 INSERT INTO "producto" (precio_unitario,stock_actual) VALUES ('9.67',70);
-INSERT INTO "producto" (precio_unitario,stock_actual) VALUES ('62.35',15);)
+INSERT INTO "producto" (precio_unitario,stock_actual) VALUES ('62.35',15);
 
 
 CREATE TABLE factura(
@@ -237,7 +237,7 @@ CREATE TABLE factura(
 	id_cliente int,
 	constraint id_fact primary key (id_fact),
 	CONSTRAINT id_cliente FOREIGN KEY (id_cliente) REFERENCES cliente(id));
-(INSERT INTO "factura" (fecha, fecha_pago, id_cliente) VALUES ('1998/5/14','2001/5/14',78);
+INSERT INTO "factura" (fecha, fecha_pago, id_cliente) VALUES ('1998/5/14','2001/5/14',78);
 INSERT INTO "factura" (fecha, fecha_pago, id_cliente) VALUES ('2004/8/20','2004/8/21',4);
 INSERT INTO "factura" (fecha, fecha_pago, id_cliente) VALUES ('2000/7/2','20001/5/20',35);
 INSERT INTO "factura" (fecha, fecha_pago, id_cliente) VALUES ('1985/7/24','1985/7/30',85);
@@ -341,7 +341,7 @@ INSERT INTO "factura" (fecha,fecha_pago,id_cliente) VALUES ('1981/06/15','2008/0
 INSERT INTO "factura" (fecha,fecha_pago,id_cliente) VALUES ('2005/04/15','1989/02/05',57);
 INSERT INTO "factura" (fecha,fecha_pago,id_cliente) VALUES ('2001/07/10','1987/10/10',22);
 INSERT INTO "factura" (fecha,fecha_pago,id_cliente) VALUES ('2002/02/02','1990/04/20',20);
-INSERT INTO "factura" (fecha,fecha_pago,id_cliente) VALUES ('1983/09/17','2010/03/01',93);)
+INSERT INTO "factura" (fecha,fecha_pago,id_cliente) VALUES ('1983/09/17','2010/03/01',93);
 
 
 CREATE TABLE factura_producto(
@@ -352,7 +352,7 @@ CREATE TABLE factura_producto(
 		REFERENCES factura(id_fact),
 	CONSTRAINT id_producto FOREIGN KEY (id_producto)
 		REFERENCES producto(id_prod));
-(INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (227,136,6);
+INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (227,136,6);
 INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (209,197,39);
 INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (231,179,8);
 INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (242,136,20);
@@ -451,4 +451,4 @@ INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (205,129
 INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (235,144,25);
 INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (254,226,46);
 INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (257,150,18);
-INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (184,140,13);)
+INSERT INTO "factura_producto" (id_factura,id_producto,cantidad) VALUES (184,140,13);
