@@ -1,0 +1,336 @@
+--Trabajo práctico nº5
+--Sebastian de la Cruz
+CREATE TABLE cliente(
+id_cliente integer,
+razon_social varchar(50),
+DNI_cuil integer,
+fecha_alta date,
+primary key (id_cliente)
+);
+
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (1,'EPS63BJF8NW',6954455,'Aug 5, 2014');
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (2,"NSU01ZSZ7KP",67882543,"31/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (3,"MHN19EYK7SD",65171405,"28/04/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (4,"TKD06BZF6EF",32493219,"20/08/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (5,"KVJ64OHN9RV",18684681,"07/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (6,"SKO53JOC6HU",88289756,"14/01/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (7,"PXH90OGA6IU",4634564,"01/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (8,"YMP62ZVD1XB",96604656,"17/01/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (9,"BWL63HNH5EU",68881794,"30/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (10,"CWS91HIW9EW",69313123,"13/10/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (11,"AXI88MOG8DL",33112513,"28/04/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (12,"CIC00FDN3FJ",57726692,"17/03/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (13,"ZUQ35LES8YM",70363526,"11/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (14,"NLL33YAK3FY",43586363,"09/08/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (15,"OLK97FXF4NW",7357532,"19/01/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (16,"LBQ80ARL5TG",75446903,"13/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (17,"KJJ93NOV8UO",29521628,"25/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (18,"AOC07HKB7AQ",39268699,"28/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (19,"XQR85CWQ1LV",34371885,"13/03/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (20,"KQT42MHB9ZF",84628907,"19/08/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (21,"UKG84IQZ5ZP",1159549,"06/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (22,"CST01IAH9RX",48307027,"29/03/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (23,"AMW98YOQ1VS",16385164,"16/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (24,"NPN80QGO0HK",59616296,"04/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (25,"EHP76UTW5KD",19056474,"08/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (26,"FEV98QQY0OI",22906537,"12/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (27,"EGJ00ZTB8WU",55537084,"22/03/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (28,"KXK11UYQ3GG",13308639,"15/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (29,"CVV79SIJ4BJ",2991232,"24/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (30,"AGL35SIA6QN",13296531,"06/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (31,"WQH65ILB3ZN",58578804,"29/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (32,"ODE70LVN4DM",36815252,"18/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (33,"IZE04XRD4KT",98924652,"15/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (34,"FAT89YLC5RL",16247805,"07/09/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (35,"ULI69QFP8WK",81515153,"26/10/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (36,"KTL21XEY5UV",73161592,"07/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (37,"QGO24CFI0VO",93408415,"11/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (38,"SYV61HCA6UD",69891604,"19/09/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (39,"EKL98XCQ9JF",28014593,"27/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (40,"XMR98WIW7RD",1962586,"18/01/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (41,"RWZ08QWT8KH",50063893,"23/10/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (42,"NSG70JRI4QO",42218646,"14/08/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (43,"XNL44TKM8PH",56995748,"08/10/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (44,"SMH26FMM1CW",29731812,"03/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (45,"VAT02AFB9WE",58148201,"25/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (46,"TAI60WRL1KK",76195190,"09/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (47,"GJO52OIT3XA",11245285,"06/09/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (48,"NUM89HHN0KL",78374682,"07/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (49,"QTS68LLB4DX",25925091,"02/04/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (50,"IEZ80YYJ4PW",12010599,"03/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (51,"DJE95UIY9DB",90245784,"23/04/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (52,"DZG49AEB3HK",77360310,"24/01/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (53,"NWC80MUE8HP",83757009,"10/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (54,"XHC76VXM8HE",80513245,"11/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (55,"OAS25HMF4PG",35178112,"22/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (56,"QWL56RVG8VV",25485013,"02/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (57,"DBQ14HHT8JT",37212787,"19/10/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (58,"YGW85BGE7QO",98063055,"25/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (59,"DKK55GSF4MQ",82612611,"04/10/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (60,"TSJ75QEI3DX",40767354,"01/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (61,"TXE46YXP9SO",69851619,"12/03/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (62,"ZOU16UKW3PR",81877172,"25/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (63,"NHA61XCE2HE",82042702,"30/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (64,"XHI78UFP2HI",51186325,"07/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (65,"MWL29MMZ7NQ",32094321,"05/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (66,"MLR79HQW8OS",57733087,"08/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (67,"OTI72NFS1FM",29043737,"23/09/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (68,"JEG93OJC4PM",28298994,"31/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (69,"KMN10JON4AM",14677204,"18/08/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (70,"RBE54DOF9TC",99074351,"03/03/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (71,"EXY58BUI3SM",79188019,"13/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (72,"VSA54ORB1LX",46783821,"15/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (73,"BUG13MQV5TU",86915213,"05/10/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (74,"JHM07SKK6CE",74486093,"30/04/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (75,"SRN54UGK7LO",90873915,"17/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (76,"UMD14YUT3FB",73834862,"02/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (77,"PJI24CUX7CL",83429018,"09/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (78,"UYD78DGI9TS",48020392,"04/05/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (79,"YOK82OON0QA",11671571,"09/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (80,"GHL30QLS5VQ",38258628,"17/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (81,"UBG93JXD4FS",27387597,"04/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (82,"XCZ64DDT0RQ",47099225,"12/03/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (83,"FFL37QZQ9AI",24435113,"18/09/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (84,"GQM08SBW9XY",99159643,"08/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (85,"CKJ43TII1GE",75663202,"10/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (86,"RHV71WFO9SU",98149242,"25/12/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (87,"IEL19UAW5RU",28900339,"05/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (88,"TRW12ZCQ6SM",15160500,"17/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (89,"KHH29JBC4LC",61117155,"22/02/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (90,"ZTS17UPL1IV",45935322,"25/03/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (91,"JPF36PAN5XP",42272728,"06/04/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (92,"SBF33YAI7XM",84357620,"30/06/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (93,"AAO30IVR0AO",16556519,"30/04/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (94,"QON38WTR8NG",75699153,"19/09/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (95,"SGR58LFU8PJ",79552879,"26/10/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (96,"NSY36PYZ3KH",69355553,"17/08/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (97,"TUI11VKV2UI",64197621,"01/11/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (98,"HXV50KBJ1BL",25149651,"21/04/2015");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (99,"GXK97IYX3ZZ",43734216,"30/07/2014");
+INSERT INTO "cliente" ("id_cliente","razon_social",DNI_cuil,"fecha_alta") VALUES (100,"TKO25IHO0SG",46488114,"24/10/2014");
+
+CREATE TABLE factura(
+id_factura integer,
+nro_factura integer,
+fecha date,
+fecha_pago date,
+id_cliente integer,
+ primary key (id_factura),
+ foreign key (id_cliente)references cliente(id_cliente)
+);
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (1,7516,'Aug 5, 2014','Feb 3, 2015');
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (2,868,'Nov 22, 2014','Jun 1, 2015');
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (3,4397,'Mar 18, 2015','Jun 7, 2015');
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (4,6359,'Nov 4, 2014','Sep 21, 2014');
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (5,9185,'Aug 13, 2014','Apr 10, 2015');
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (6,1401,'Jul 29, 2014','Mar 28, 2015');
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (7,4482,"Nov 12, 2014","Jan 2, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (8,3202,"Mar 21, 2015","Aug 5, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (9,2599,"Oct 14, 2014","May 22, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (10,3017,"Oct 8, 2014","Sep 29, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (11,9656,"Jan 19, 2015","Sep 5, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (12,7505,"Sep 19, 2014","Mar 4, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (13,6409,"Jan 13, 2015","Apr 29, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (14,7461,"Oct 4, 2014","Mar 13, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (15,3712,"Mar 30, 2015","Sep 18, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (16,2498,"Jun 26, 2014","Sep 22, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (17,6870,"Feb 17, 2015","Aug 28, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (18,7832,"Nov 15, 2014","Sep 17, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (19,1231,"Jan 4, 2015","Jun 1, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (20,5235,"Mar 15, 2015","Jul 28, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (21,5135,"Apr 8, 2015","Aug 10, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (22,8206,"Mar 9, 2015","Jun 6, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (23,1616,"Apr 2, 2015","Sep 23, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (24,6239,"Sep 28, 2014","Jul 6, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (25,9858,"Nov 17, 2014","Oct 30, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (26,5626,"Apr 23, 2015","Jan 29, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (27,1004,"Jan 2, 2015","Dec 26, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (28,5980,"Jun 7, 2015","May 5, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (29,2193,"May 5, 2015","May 29, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (30,3612,"Sep 25, 2014","Oct 29, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (31,4887,"Aug 12, 2014","Dec 29, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (32,52,"Nov 8, 2014","Feb 18, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (33,6687,"Jul 13, 2014","Jun 26, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (34,4977,"Apr 4, 2015","Jul 25, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (35,3389,"Jul 10, 2014","Oct 18, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (36,3275,"Dec 26, 2014","Oct 22, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (37,3084,"Apr 24, 2015","Jan 15, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (38,8876,"Sep 29, 2014","Sep 10, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (39,9000,"Nov 26, 2014","May 9, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (40,6455,"Jan 26, 2015","Mar 22, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (41,446,"Jan 29, 2015","Jan 29, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (42,497,"May 2, 2015","Apr 19, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (43,4922,"Nov 14, 2014","Jun 10, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (44,7703,"Oct 16, 2014","Oct 3, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (45,3784,"Mar 24, 2015","Oct 16, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (46,3666,"Apr 3, 2015","Apr 18, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (47,6694,"Aug 20, 2014","Sep 16, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (48,8355,"Mar 22, 2015","Dec 26, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (49,1109,"Sep 7, 2014","Aug 23, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (50,2614,"Feb 15, 2015","Nov 22, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (51,4609,"Dec 9, 2014","May 26, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (52,6473,"May 1, 2015","Jul 26, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (53,7610,"Apr 10, 2015","Dec 1, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (54,7529,"Aug 28, 2014","Sep 12, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (55,6340,"Jan 8, 2015","Mar 26, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (56,6009,"Apr 25, 2015","Jan 7, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (57,4708,"Jun 24, 2014","Sep 18, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (58,2248,"Jul 2, 2014","Mar 16, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (59,791,"Apr 24, 2015","Nov 9, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (60,6744,"May 22, 2015","Jun 1, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (61,2720,"May 22, 2015","Jan 9, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (62,5607,"Dec 28, 2014","Aug 10, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (63,408,"Jan 30, 2015","May 9, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (64,3165,"Nov 19, 2014","Sep 24, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (65,1579,"Aug 7, 2014","May 3, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (66,2931,"Sep 23, 2014","Dec 9, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (67,6667,"Feb 16, 2015","Feb 19, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (68,6338,"Aug 19, 2014","Jan 5, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (69,3737,"Jul 29, 2014","Aug 25, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (70,9622,"Dec 10, 2014","Mar 1, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (71,6493,"Feb 20, 2015","Mar 28, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (72,3058,"Apr 15, 2015","Sep 10, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (73,6987,"Oct 12, 2014","Jan 31, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (74,7342,"Oct 1, 2014","Jul 15, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (75,3455,"Dec 12, 2014","Dec 1, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (76,3925,"Sep 15, 2014","Aug 13, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (77,4451,"Oct 15, 2014","Aug 28, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (78,9316,"Nov 20, 2014","Oct 20, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (79,310,"Aug 28, 2014","Nov 6, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (80,6872,"Aug 3, 2014","Apr 26, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (81,295,"Mar 10, 2015","Oct 28, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (82,9176,"Dec 14, 2014","Nov 12, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (83,4013,"Aug 8, 2014","Jul 19, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (84,7055,"Sep 5, 2014","Nov 30, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (85,171,"Jan 7, 2015","May 7, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (86,2420,"Mar 25, 2015","Jul 9, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (87,6160,"May 30, 2015","Jan 4, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (88,5889,"Jan 17, 2015","Mar 24, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (89,4973,"Nov 8, 2014","Jul 22, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (90,3664,"Aug 11, 2014","Mar 10, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (91,6716,"Feb 22, 2015","Jan 16, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (92,5695,"Sep 18, 2014","May 18, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (93,4311,"Jun 26, 2014","Aug 2, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (94,1788,"Nov 25, 2014","Feb 10, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (95,41,"Nov 30, 2014","Nov 6, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (96,3348,"Feb 2, 2015","Jun 25, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (97,623,"Apr 29, 2015","Jun 6, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (98,9713,"Feb 19, 2015","Nov 27, 2014");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (99,25,"Oct 30, 2014","Jan 25, 2015");
+INSERT INTO "factura" ("id_factura","nro_factura","fecha","fecha_pago") VALUES (100,8291,"Aug 25, 2014","Sep 27, 2014");
+
+CREATE TABLE factura_producto(
+id_factura integer,
+id_producto integer,
+cantidad integer,
+ foreign key (id_factura)references factura(id_factura),
+ foreign key (id_producto)references producto(id_producto)
+);
+
+CREATE TABLE producto(
+id_producto integer,
+precio_unitario money,
+stock_actual integer,
+ primary key (id_producto)
+);
+
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (1,'0,659',2);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (2,'0,242',58);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (3,'0,202',3);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (4,'0,187',71);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (5,'0,565',16);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (6,'0,281',50);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (7,'0,180',87);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (8,'0,605',51);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (9,'0,541',22);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (10,'0,141',26);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (11,'0,629',37);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (12,'0,438',58);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (13,'0,792',73);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (14,'0,173',66);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (15,'0,837',49);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (16,'0,911',93);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (17,'0,301',3);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (18,'0,850',33);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (19,'0,282',36);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (20,'0,307',12);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (21,'0,745',27);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (22,'0,995',61);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (23,'0,178',69);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (24,'0,567',35);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (25,'0,909',39);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (26,'0,374',31);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (27,'0,845',100);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (28,'0,497',99);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (29,'0,399',60);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (30,'0,697',93);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (31,'0,455',19);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (32,'0,946',37);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (33,'0,998',82);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (34,'0,495',21);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (35,'0,543',25);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (36,'0,775',22);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (37,'0,441',18);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (38,'0,357',16);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (39,'0,570',60);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (40,'0,323',18);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (41,'0,391',16);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (42,'0,895',18);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (43,'0,357',60);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (44,'0,548',16);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (45,'0,948',24);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (46,'0,977',25);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (47,'0,713',96);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (48,'0,743',17);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (49,'0,554',33);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (50,'0,614',8);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (51,'0,419',73);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (52,'0,739',71);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (53,'0,573',47);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (54,'0,109',16);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (55,'0,109',14);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (56,'0,405',89);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (57,'0,769',67);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (58,'0,370',83);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (59,'0,548',78);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (60,'0,926',74);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (61,'0,190',24);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (62,'0,665',95);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (63,'0,826',5);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (64,'0,219',58);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (65,'0,249',91);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (66,'0,386',15);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (67,'0,473',39);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (68,'0,853',56);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (69,'0,432',93);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (70,'0,279',82);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (71,'0,302',95);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (72,'0,415',43);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (73,'0,744',44);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (74,'0,908',9);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (75,'0,159',81);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (76,'0,398',24);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (77,'0,207',96);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (78,'0,769',88);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (79,'0,992',45);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (80,'0,895',78);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (81,'0,486',47);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (82,'0,821',85);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (83,'0,835',92);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (84,'0,462',54);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (85,'0,633',40);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (86,'0,265',88);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (87,'0,926',76);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (88,'0,152',86);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (89,'0,261',37);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (90,'0,419',73);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (91,'0,711',42);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (92,'0,810',19);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (93,'0,594',3);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (94,'0,907',3);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (95,'0,462',40);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (96,'0,438',80);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (97,'0,605',9);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (98,'0,956',3);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (99,'0,802',35);
+INSERT INTO "producto" ("id_producto","precio_unitario","stock_actual") VALUES (100,'0,179',2);
