@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tpdir=tp4-integrador
+tpdir=tp5-creacionEsquema
 
 mkdir -p AlejandroImperatori/$tpdir
 mkdir -p AlejoGalvez/$tpdir
