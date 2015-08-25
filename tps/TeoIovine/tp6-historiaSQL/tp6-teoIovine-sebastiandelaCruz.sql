@@ -1,0 +1,4 @@
+-- Trabajo práctico nº6
+-- Historia SQL
+-- Teo Iovine 40010423
+-- Sebastián de la Cruz
