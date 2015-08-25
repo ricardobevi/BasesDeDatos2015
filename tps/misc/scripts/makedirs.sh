@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tpdir=tp5-creacionEsquema
+tpdir=tp6-historiaSQL
 
 mkdir -p AlejandroImperatori/$tpdir
 mkdir -p AlejoGalvez/$tpdir
